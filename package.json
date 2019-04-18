@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-clarity",
+  "version": "1.0.0",
+  "description": "clarity app",
+  "author": "JacketsOnFHIR",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+     },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
