@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About ClarityNLP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css">
+</head>
+<nav class="navbar navbar-dark bg-dark navbar-static-top navbar-expand-md">
+    <div class="container">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+        </button> <a class="navbar-brand" href="/">ClarityNLP</a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item"><a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="active nav-item"><a href="/results" class="nav-link">Trials</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="add" class="container">
+    <div class="form-wrap">
+      <h1>Advanced Search</h1>
+	  <P>Find patients with...</P>
+      <form>
+        <class="input-group">
+		
+		 <fieldset>
+		 
+          <legend>Gender</legend>
+           <input type="radio" id="male" name="gender" value="male"> Male
+           <input type="radio" id="female" name="gender" value="female"> Female 
+		   <input type="radio" id="other" name="gender" value="other"> Other 
+		   
+         </fieldset>
+        
+		<class="input-group">
+		
+		 <fieldset>
+		 
+          <legend>Age</legend>
+          <input type="radio" id="18-24" name="age" value="18-24"> 18-24
+          <input type="radio" id="25-34" name="age" value="25-34"> 25-34
+		  <input type="radio" id="35-50" name="age" value="35-50"> 35-50
+		  <input type="radio" id="over 50" name="age" value="over 50"> over 50
+		  
+         </fieldset>
+		
+		<class=""input-group"">
+		
+		 <fieldset>
+		 
+		 <legend>Diagnosis</legend>
+         <select>
+			<option value="biopsy">Biopsy</option>
+			<option value="x-rays">X-rays</option>
+			<option value="resultsfromphysicalexaminations">Results from Physical Examinations</option>
+			<option value="medicalhistory">Medical History</option>
+        </select>
+		
+		 </fieldset>
+		 
+       
+	   <class=""input-group"">
+	   
+	    <fieldset>
+		
+		 <legend>Location</legend>
+         <select>
+			<option value="US">US</option>
+			<option value="Africa">Africa</option>
+			<option value="Asia">Asia</option>
+			<option value="Europe">Europe</option>
+			<option value="North America">North America</option>
+        </select>
+		
+		 </fieldset>
+       
+	   <class="input-group">
+	   
+	    <fieldset>
+		
+          <legend>Procedures</legend>
+          <textarea name="procedures" id="procedures" class="input-box" placeholder="Describe the details of the procedures"
+            rows="10" required></textarea>
+			
+	    </fieldset>
+		
+        
+		<class=""input-group"">
+		
+		 <fieldset>
+		 
+		 <legend>Medications</legend>
+         <select>
+			<option value="meclofenamate">Meclofenamate</option>
+			<option value="meclizine">Meclizine</option>
+			<option value="meclomen">Meclomen</option>
+			<option value="mebendazole">Mebendazole</option>
+        </select>
+		
+		 </fieldset>
+		 
+       
+	   <class=""input-group"">
+	   
+		 <fieldset>
+		 
+		 <legend>Drugs Tried</legend>
+         <select>
+			<option value="opoids">Opoids</option>
+			<option value="stimulants">Stimulants</option>
+			<option value="depressants">Depressants</option>
+			<option value="anabolicsteroids">Anabolic Steroids</option>
+        </select>
+		
+		 </fieldset>
+		 
+       
+	   <class="input-group">
+	   
+		 <fieldset>
+		 
+          <legend>Other Trials</legend>
+           <input type="radio" id="yes" name="othertrials" value="yes"> Yes
+           <input type="radio" id="no" name="othertrials" value="no"> No 
+		   
+		  </fieldset>
+		  
+        <form action="trials.html">
+	       <input type="submit" value="Search"  onclick="goHome()" style="font-size : 15px; width: 20%; height: 50px;">
+        </form>
+	  
+	 </form>
+    </div>
+  </section>
+
+</html>
